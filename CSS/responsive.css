@@ -1,0 +1,266 @@
+/* for smaller devices EX:Mobile */
+
+@media (max-width: 575px) {
+    .content{
+        left: 27%;
+        height: 400px;
+    }
+
+    .carousel-inner{
+        height: 500px;
+    }
+
+    .carousel-item{
+        height: 500px;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .second-child {
+        position: absolute;
+        z-index: 20;
+        top: 25%;
+        left: -21%;
+        width: 254px;
+    }
+    .para-2{
+       font-size: 13px; 
+    }
+
+    #cmnt-by-ambika{
+        font-size: 9px;
+    }
+
+    .primary-text {
+      font-size: 13px;
+    }
+
+    .underline{
+        width: 155px;
+    }
+}
+
+@media (min-width: 435px) and (max-width: 575px) {
+    .content{
+        left: 27%;
+        height: 400px;
+    }
+
+    .carousel-inner{
+        height: 500px;
+    }
+
+    .carousel-item{
+        height: 500px;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .second-child {
+        position: absolute;
+        z-index: 20;
+        top: 25%;
+        left: -21%;
+        width: 290px;
+    }
+    .para-2{
+       font-size: 13px; 
+    }
+
+    #cmnt-by-ambika{
+        font-size: 9px;
+    }
+
+    .primary-text {
+      font-size: 13px;
+    }
+
+    .underline{
+        width: 155px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 575px) {
+    .content{
+        left: 27%;
+        height: 400px;
+    }
+
+    .carousel-inner{
+        height: 500px;
+    }
+
+    .carousel-item{
+        height: 500px;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .second-child {
+        position: absolute;
+        z-index: 20;
+        top: 25%;
+        left: -21%;
+        width: 340px;
+    }
+    .para-2{
+       font-size: 13px; 
+    }
+
+    #cmnt-by-ambika{
+        font-size: 9px;
+    }
+
+    .primary-text {
+      font-size: 13px;
+    }
+
+    .underline{
+        width: 155px;
+    }
+}
+
+
+/* for medium devices */
+@media (min-width: 575px) and (max-width: 767px) {
+    .carousel-inner{
+        height: 500px;
+        width: 100%;
+    }
+
+    .carousel-item{
+        height: 500px;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content{
+        left: 25%;
+        height: 400px;
+    }
+
+    .second-child {
+       
+        width: 356px;
+    }
+    .para-2{
+        font-size: 13px;
+    }
+
+    #cmnt-by-ambika{
+        font-size: 11px;
+    }
+}
+
+/* for medium devices */
+
+@media (min-width: 768px) and (max-width: 991px){
+    .carousel-inner{
+        height: 600px;
+        width: 100%;
+    }
+
+    .carousel-item{
+        height: 600px;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content{
+        left: 25%;
+        height: 500px;
+    }
+
+    .second-child {
+       left: -14%;
+        width: 435px;
+    }
+    .para-2{
+        font-size: 18px;
+    }
+
+    #cmnt-by-ambika{
+        font-size: 14px;
+    }
+}
+
+/* for larger deveices EX:PC,Laptop */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-inner{
+        height: 600px;
+        width: 100%;
+    }
+
+    .carousel-item{
+        height: 600px;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content{
+        left: 32%;
+        height: 500px;
+    }
+
+    .second-child {
+       left: -28%;
+        width: 520px;
+    }
+    .para-2{
+        font-size: 18px;
+    }
+
+    #cmnt-by-ambika{
+        font-size: 15px;
+    }
+}
+
+/* for extra larger devices EX:PC,Smart TV */
+@media (min-width :1200px) {
+    .carousel-inner{
+        height: 600px;
+        width: 100%;
+    }
+
+    .carousel-item{
+        height: 600px;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content{
+        left: 32%;
+        height: 500px;
+    }
+
+    .second-child {
+       left: -28%;
+        width: 575px;
+    }
+    .para-2{
+        font-size: 18px;
+    }
+
+    #cmnt-by-ambika{
+        font-size: 16px;
+    }
+}

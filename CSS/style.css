@@ -14,6 +14,10 @@
 .carousel-content{
     margin-top: 70px;
 }
+
+.carousel-inner{
+    position: relative !important;
+}
 /* #item-1{
     background: url(../IMAGES/mountain-01.jpeg);
     background-repeat: no-repeat;
@@ -31,7 +35,7 @@
 } */
 
 .content{
-    background-color: #F07883;
+    background-color: rgba(240, 120, 130, 0.90);;
     position:absolute;
      height: 550px;
     top: 6%;
@@ -40,6 +44,7 @@
     right: 0;
     z-index: 1;
 }
+
 
 .primary-text {
     color: white;
@@ -68,17 +73,26 @@
     margin: 0%;
 }
 
+.underline{
+    content: "";
+    width: 220px;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+}
+
 .second-child{
-    position:absolute;
+    position: absolute;
     z-index: 20;
     top: 20%;
-    left: -37%;
-    width: 648px;
+    left: -21%;
+    width: 524px;
 }
 
 .para-2{
     color: white;
     text-align: justify;
+    /* font-size: 19px; */
 }
 
 .apply{
@@ -86,11 +100,29 @@
 }
 .overlay{
     position: absolute;
-    background-color: #3d46436e;
+    background-color:rgb(240 120 131 / 38%);
     width: 100%;
     height: 100%;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+}
+
+
+
+
+.overlay-2{
+    position: absolute;
+    background-color:rgb(59 58 58 / 33%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+ul  li{
+    list-style-type: none;
 }
